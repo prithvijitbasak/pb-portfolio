@@ -1,0 +1,40 @@
+.uparrow-div {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    background-color: var(--top-color);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: var(--global-box-shadow);
+    transition: all 0.2s ease-in-out;
+    animation: fadeIn 0.25s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.uparrow-div:hover {
+    transform: scale(1.05);
+}
+
+.uparrow-div svg {
+    color: var(--top-color);
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    display: block;
+}
+
+@media (max-width: 767px) {
+  .uparrow-div {
+    bottom: 2.5%;
+    right: 15%;
+  }
+}
