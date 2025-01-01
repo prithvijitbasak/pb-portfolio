@@ -1,5 +1,6 @@
 import lovenheal from "../../images/lovenheal-logo.webp";
 import synergic from "../../images/synergic.jpeg";
+import ibarts from "../../images/ibarts-logo-og.png"
 import "../assets/styles/Experience.css";
 
 const Experience = () => {
@@ -12,16 +13,16 @@ const Experience = () => {
             <div className="experience-containers">
               <div className="company-div">
                 <div className="company-logo-div">
-                  <img src={lovenheal} alt="lovenheal logo" />
+                  <img src={ibarts} alt="ibarts logo" />
                 </div>
                 <div className="company-job-details">
                   <div className="title-location-div">
-                    <h3 className="company-title">LovenHeal</h3>
-                    <p className="location">Remote</p>
+                    <h3 className="company-title">iB Arts Pvt. Ltd.</h3>
+                    <p className="location">Kolkata, India</p>
                   </div>
-                  <h4 className="designation-div">Frontend Developer Intern</h4>
+                  <h4 className="designation-div">Web Developer</h4>
                   <div className="timeline-div">
-                    <p>February, 2022 - April, 2022</p>
+                    <p>January, 2024 - Present</p>
                   </div>
                   <hr className="black-line" />
                   <div className="job-details">

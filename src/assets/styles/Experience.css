@@ -24,12 +24,13 @@
 .experience-containers .company-div {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 5%;
-  padding: 10px 15px;
+  padding: 25px 30px;
   background-color: var(--background-color);
   border-radius: 15px;
   width: 45%;
+  box-shadow: var(--global-box-shadow);
 }
 
 .company-logo-div img {
