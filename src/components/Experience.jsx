@@ -1,5 +1,5 @@
 import lovenheal from "../../images/lovenheal-logo.webp";
-import synergic from "../../images/synergic.jpeg"
+import synergic from "../../images/synergic.jpeg";
 import "../assets/styles/Experience.css";
 
 const Experience = () => {
@@ -10,7 +10,7 @@ const Experience = () => {
           <div className="pb-experience-section-contents">
             <h2 className="h2-text">Experience</h2>
             <div className="experience-containers">
-              <div className="lovenheal-div">
+              <div className="company-div">
                 <div className="company-logo-div">
                   <img src={lovenheal} alt="lovenheal logo" />
                 </div>
@@ -42,13 +42,15 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <div className="synergic-div">
-              <div className="company-logo-div">
+              <div className="company-div">
+                <div className="company-logo-div">
                   <img src={synergic} alt="synergic logo" />
                 </div>
                 <div className="company-job-details">
                   <div className="title-location-div">
-                    <h3 className="company-title">Synergic Softek Solutions Pvt. Ltd.</h3>
+                    <h3 className="company-title">
+                      Synergic Softek Solutions Pvt. Ltd.
+                    </h3>
                     <p className="location">Kolkata, India</p>
                   </div>
                   <h4 className="designation-div">Software Engineer</h4>
@@ -74,8 +76,8 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-              <div className="ibarts-div">
-              <div className="company-logo-div">
+              <div className="company-div">
+                <div className="company-logo-div">
                   <img src={lovenheal} alt="lovenheal logo" />
                 </div>
                 <div className="company-job-details">

@@ -1,3 +1,39 @@
 .pb-experience-section-wrapper {
   padding-top: 70px;
 }
+
+.pb-experience-section-contents h2.h2-text {
+  text-align: center;
+  color: var(--global-text-color);
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  text-decoration-color: var(--top-color);
+  text-decoration-thickness: 3px;
+  padding-bottom: 40px;
+}
+
+.pb-experience-section-contents .experience-containers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.experience-containers .company-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  padding: 10px 15px;
+  background-color: var(--background-color);
+  border-radius: 15px;
+  width: 45%;
+}
+
+.company-logo-div img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
