@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import "../assets/styles/UpArrow.css";
+import { FaArrowUp } from "react-icons/fa6";
+
 const UpArrow = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -28,7 +30,7 @@ const UpArrow = () => {
     <>
       {isVisible && (
         <div className="uparrow-div" onClick={() => scrollToTop()}>
-          <svg
+          {/* <svg
             fill="#ffffff"
             width="50px"
             height="50px"
@@ -38,7 +40,8 @@ const UpArrow = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M256,34,432,210l-21.2,21.21L271,91.4V478H241V91.4L101.16,231.25,80,210Z" />
-          </svg>
+          </svg> */}
+          <FaArrowUp />
         </div>
       )}
     </>
