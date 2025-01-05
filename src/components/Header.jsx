@@ -50,7 +50,7 @@ const Header = ({ scrollToSection }) => {
               <div className="navbar-menu">
                 <p onClick={() => scrollToSection("about")}>About</p>
                 <p onClick={() => scrollToSection("experience")}>Experience</p>
-                <p>Projects</p>
+                <p onClick={() => scrollToSection("projects")}>Projects</p>
                 <p>Contributions</p>
                 <p>Education</p>
                 <p>Contact Me</p>
@@ -121,7 +121,14 @@ const Header = ({ scrollToSection }) => {
         >
           Experience
         </p>
-        <p>Projects</p>
+        <p
+          onClick={() => {
+            scrollToSection("projects");
+            handleNavlinks();
+          }}
+        >
+          Projects
+        </p>
         <p>Contributions</p>
         <p>Education</p>
         <p>Contact Me</p>

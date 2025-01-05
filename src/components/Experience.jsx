@@ -20,7 +20,9 @@ const Experience = () => {
                 <div className="company-job-details">
                   <div className="title-location-div">
                     <h3 className="company-title">iB Arts Pvt. Ltd.</h3>
-                    <p className="location"><GrLocation /> Kolkata, India</p>
+                    <p className="location">
+                      <GrLocation /> Kolkata, India
+                    </p>
                   </div>
                   <h4 className="designation-div">Web Developer</h4>
                   <div className="timeline-div">
@@ -64,7 +66,9 @@ const Experience = () => {
                     <h3 className="company-title">
                       Synergic Softek Solutions Pvt. Ltd.
                     </h3>
-                    <p className="location"><GrLocation /> Kolkata, India</p>
+                    <p className="location">
+                      <GrLocation /> Kolkata, India
+                    </p>
                   </div>
                   <h4 className="designation-div">Software Engineer</h4>
                   <div className="timeline-div">
@@ -98,7 +102,9 @@ const Experience = () => {
                 <div className="company-job-details">
                   <div className="title-location-div">
                     <h3 className="company-title">LovenHeal</h3>
-                    <p className="location"><RiRemoteControlFill /> Remote</p>
+                    <p className="location">
+                      <RiRemoteControlFill /> Remote
+                    </p>
                   </div>
                   <h4 className="designation-div">Frontend Developer Intern</h4>
                   <div className="timeline-div">
