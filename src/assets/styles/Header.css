@@ -4,7 +4,7 @@
   position: sticky;
   top: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 2;
 }
 
 .pb-portfolio-header .pb-header-contents {
@@ -19,11 +19,11 @@
 }
 
 .logo-div img {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   display: block;
   object-fit: contain;
   width: 100%;
-  box-shadow: var(--global-box-shadow);
+  /* box-shadow: var(--global-box-shadow); */
 }
 
 .pb-header-contents .header-navbar-div {

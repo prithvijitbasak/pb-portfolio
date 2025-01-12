@@ -1,0 +1,111 @@
+.pb-contributions-section-wrapper {
+  padding-top: 125px;
+  margin-bottom: 250px;
+}
+
+.pb-contributions-contents h2.h2-text {
+  text-align: center;
+  color: var(--global-text-color);
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  text-decoration-color: var(--top-color);
+  text-decoration-thickness: 3px;
+  padding-bottom: 40px;
+}
+
+.contributions-slider-wrapper .slick-slide {
+  padding: 0 15px;
+}
+
+.contributions-slider-wrapper {
+  width: 100%;
+  max-width: 1200px; /* Adjust as needed */
+  margin: auto;
+}
+
+.contributions-slider-wrapper .my-contributions-swiper {
+  padding: 0 20px;
+  width: 100%;
+}
+
+.contributions-slider-wrapper .swiper-wrapper {
+  padding-bottom: 60px;
+}
+
+.contributions-slider-wrapper .contributions-slider-card {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: var(--background-color);
+  color: var(--global-text-color);
+  box-shadow: var(--global-box-shadow);
+  min-height: 275px;
+  /* outline: none; */
+}
+
+.contributions-slider-card .organisation-img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+/* .contributions-slider-wrapper
+  .swiper-pagination-clickable
+  .swiper-pagination-bullet {
+  background-color: var(--top-color);
+  height: 14px;
+  width: 14px;
+  margin: 0 7px !important;
+} */
+
+.contributions-slider-wrapper .slick-track {
+  margin-bottom: 10px;
+}
+
+.contributions-slider-wrapper .slick-prev,
+.contributions-slider-wrapper .slick-next {
+  display: none !important;
+}
+
+.contributions-slider-wrapper .slick-dots {
+  bottom: -45px;
+}
+
+.contributions-slider-wrapper .slick-dots li button:before {
+  font-size: 16px;
+  color: var(--top-color);
+}
+
+.contributions-slider-wrapper .slick-dots li.slick-active button:before {
+  color: var(--top-color);
+  opacity: 1;
+}
+
+.contributions-slider-wrapper .slick-dots li button:hover:before {
+  opacity: 0.85;
+}
+
+@media (max-width: 980px) {
+  .contributions-slider-wrapper .contributions-slider-card {
+    min-height: 245px;
+  }
+  .contributions-slider-wrapper .slick-dots li button:before {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contributions-slider-wrapper .contributions-slider-card {
+    min-height: 155px;
+    padding: 10px;
+  }
+  .contributions-slider-card .organisation-img {
+    border-radius: 5px;
+  }
+  .contributions-slider-wrapper .slick-dots {
+    bottom: -42px;
+  }
+}
