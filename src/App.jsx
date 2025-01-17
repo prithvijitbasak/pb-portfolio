@@ -5,6 +5,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contributions from "./components/Contributions";
+import Education from "./components/Education";
 import UpArrow from "./components/UpArrow";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
   const contributionsRef = useRef(null);
+  const educationRef = useRef(null);
 
   const scrollToSection = (section) => {
     if (section === "about" && aboutRef.current) {
@@ -34,6 +36,10 @@ const App = () => {
     if (section === "contributions" && contributionsRef.current) {
       contributionsRef.current.scrollIntoView();
     }
+
+    if (section === "education" && educationRef.current) {
+      educationRef.current.scrollIntoView();
+    }
   };
 
   return (
@@ -53,6 +59,9 @@ const App = () => {
       </div>
       <div ref={contributionsRef}>
         <Contributions />
+      </div>
+      <div ref={educationRef}>
+        <Education />
       </div>
       <UpArrow />
     </>

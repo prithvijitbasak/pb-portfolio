@@ -7,6 +7,8 @@ import petEvolution from "../../images/pet evolution.jpeg";
 import blueCoast from "../../images/blue-coast-management.png";
 import rtf from "../../images/road-to-fertility.png";
 import bombayHair from "../../images/bombay-hair.png";
+import mrwinstons from "../../images/mrwinstons.png";
+import belleandjune from "../../images/belle-and-june.svg";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import "swiper/css";
 // import "swiper/css/pagination";
@@ -26,7 +28,7 @@ const Contributions = () => {
     autoplaySpeed: 2000,
     pauseOnHover: false,
     swipeToSlide: true,
-    // cssEase: "linear",
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -155,6 +157,30 @@ const Contributions = () => {
                   <img
                     src={rtf}
                     alt="Road to fertility"
+                    className="organisation-img"
+                  />
+                </a>
+
+                <a
+                  className="contributions-slider-card"
+                  href="https://www.mrwinstons.com/"
+                  target="_blank"
+                >
+                  <img
+                    src={mrwinstons}
+                    alt="Mr. Winstons"
+                    className="organisation-img"
+                  />
+                </a>
+
+                <a
+                  className="contributions-slider-card"
+                  href="https://www.belleandjune.com/"
+                  target="_blank"
+                >
+                  <img
+                    src={belleandjune}
+                    alt="Mr. Winstons"
                     className="organisation-img"
                   />
                 </a>

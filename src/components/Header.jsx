@@ -54,7 +54,7 @@ const Header = ({ scrollToSection }) => {
                 <p onClick={() => scrollToSection("contributions")}>
                   Contributions
                 </p>
-                <p>Education</p>
+                <p onClick={() => scrollToSection("education")}>Education</p>
                 <p>Contact Me</p>
               </div>
               <a
@@ -139,7 +139,14 @@ const Header = ({ scrollToSection }) => {
         >
           Contributions
         </p>
-        <p>Education</p>
+        <p
+          onClick={() => {
+            scrollToSection("education");
+            handleNavlinks();
+          }}
+        >
+          Education
+        </p>
         <p>Contact Me</p>
       </div>
     </>
