@@ -7,6 +7,7 @@ import wordpressLogo from "../../images/wordpress-logo.svg";
 import shopifyLogo from "../../images/shopify-logo.svg";
 import cLogo from "../../images/c-logo.svg";
 import cppLogo from "../../images/C++-logo.svg";
+import squarespaceLogo from "../../images/squarespace-logo.svg";
 
 const About = () => {
   return (
@@ -67,6 +68,13 @@ const About = () => {
                     <h4>Shopify</h4>
                   </div>
                   <div className="progress-bar shopify"></div>
+                </div>
+                <div className="skill-box">
+                  <div className="logo-title">
+                    <img src={squarespaceLogo} alt="Squarespace Logo" />
+                    <h4>Squarespace</h4>
+                  </div>
+                  <div className="progress-bar squarespace"></div>
                 </div>
                 <div className="skill-box">
                   <div className="logo-title">
