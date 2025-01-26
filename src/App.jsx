@@ -6,15 +6,22 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contributions from "./components/Contributions";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import UpArrow from "./components/UpArrow";
+// import ContactFormPopUp from "./components/ContactFormPopUp";
 
 const App = () => {
+  
+
   const bannerRef = useRef(null);
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
   const contributionsRef = useRef(null);
   const educationRef = useRef(null);
+  const contactRef = useRef(null);
+  const footerRef = useRef(null);
 
   const scrollToSection = (section) => {
     if (section === "about" && aboutRef.current) {
@@ -40,11 +47,20 @@ const App = () => {
     if (section === "education" && educationRef.current) {
       educationRef.current.scrollIntoView();
     }
+
+    if (section === "contact" && contactRef.current) {
+      contactRef.current.scrollIntoView();
+    }
+
+    if (section === "footer" && footerRef.current) {
+      footerRef.current.scrollIntoView();
+    }
   };
 
   return (
     <>
       <Header scrollToSection={scrollToSection} />
+      
       <div ref={bannerRef}>
         <Banner />
       </div>
@@ -62,6 +78,12 @@ const App = () => {
       </div>
       <div ref={educationRef}>
         <Education />
+      </div>
+      <div ref={contactRef}>
+        <Contact />
+      </div>
+      <div ref={footerRef}>
+        <Footer />
       </div>
       <UpArrow />
     </>

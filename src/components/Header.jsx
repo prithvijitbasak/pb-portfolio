@@ -55,7 +55,7 @@ const Header = ({ scrollToSection }) => {
                   Contributions
                 </p>
                 <p onClick={() => scrollToSection("education")}>Education</p>
-                <p>Contact Me</p>
+                <p onClick={() => scrollToSection("contact")}>Contact Me</p>
               </div>
               <a
                 className="cta-div"
@@ -147,7 +147,14 @@ const Header = ({ scrollToSection }) => {
         >
           Education
         </p>
-        <p>Contact Me</p>
+        <p
+          onClick={() => {
+            scrollToSection("contact");
+            handleNavlinks();
+          }}
+        >
+          Contact Me
+        </p>
       </div>
     </>
   );

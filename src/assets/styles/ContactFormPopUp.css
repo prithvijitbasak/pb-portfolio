@@ -1,0 +1,26 @@
+.contact-form-popup-box {
+  padding: 15px 20px;
+  background-color: var(--top-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -2000px); /* Hidden by default */
+  transition: all 0.3s ease-in-out; /* Smooth animation */
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: var(--global-box-shadow);
+  position: fixed;
+  z-index: 100;
+}
+
+@media (max-width: 767px) {
+  .contact-form-popup-box {
+    line-height: 22px;
+    font-size: 14px;
+  }
+}

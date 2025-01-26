@@ -1,4 +1,78 @@
 .pb-education-wrapper {
-  padding-top: 80px;
-  margin-bottom: 250px;
+  padding-top: 100px;
+}
+
+.pb-education-contents h2.h2-text {
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 9px;
+  text-decoration-color: var(--top-color);
+  text-decoration-thickness: 3px;
+  color: var(--global-text-color);
+}
+
+.degree-contents .degree-name {
+  font-size: 25px;
+  color: var(--global-text-color);
+  padding-bottom: 15px;
+}
+
+.degree-contents .institute-location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.institute-location .institute {
+  font-size: 22px;
+  color: var(--global-text-color);
+}
+
+.institute-location .location {
+  font-size: 18px;
+  color: var(--global-text-color);
+  font-weight: 500;
+}
+
+.degree-contents .timeline {
+  font-style: italic;
+  font-size: 18px;
+  color: var(--global-text-color);
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.degree-contents .department {
+  font-size: 18px;
+  color: var(--global-text-color);
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+.degree-contents .grade {
+  font-size: 18px;
+  color: var(--global-text-color);
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .degree-contents .degree-name {
+    font-size: 20px;
+  }
+  .degree-contents .institute-location {
+    display: block;
+  }
+  .institute-location .institute {
+    font-size: 18px;
+    padding-bottom: 8px;
+  }
+  .institute-location .location {
+    text-align: right;
+  }
+  .degree-contents p {
+    font-size: 16px !important;
+  }
 }

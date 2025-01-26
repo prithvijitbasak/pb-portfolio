@@ -12,14 +12,7 @@
   padding-bottom: 40px;
 }
 
-/* .pb-experience-section-contents .experience-containers {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  column-gap: 40px;
-  row-gap: 40px;
-} */
+
 
 .experience-containers .company-div {
   display: flex;
