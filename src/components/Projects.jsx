@@ -92,7 +92,7 @@ const Projects = () => {
                     localstorage made using React.js
                   </p>
                   <div className="links-div">
-                    <a href="#" target="_blank">
+                    <a href="https://pb-react-user-table.netlify.app/" target="_blank">
                       <CgWebsite /> Live
                     </a>
                     <a
@@ -113,7 +113,7 @@ const Projects = () => {
                     A calculator made using React.js
                   </p>
                   <div className="links-div">
-                    <a href="#" target="_blank">
+                    <a href="https://react-calculat0r.netlify.app/" target="_blank">
                       <CgWebsite /> Live
                     </a>
                     <a

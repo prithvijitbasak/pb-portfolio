@@ -10,6 +10,7 @@
   text-decoration-color: var(--top-color);
   text-decoration-thickness: 3px;
   color: var(--global-text-color);
+  font-size: 35px;
 }
 
 .pb-contact-contents .contact-me-form {
@@ -108,12 +109,19 @@ button.submit-btn:active {
   .pb-contact-wrapper {
     padding-top: 60px;
   }
+  .pb-contact-contents .h2-text {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
   .pb-contact-contents .contact-me-form {
     max-width: 80%;
   }
 }
 
 @media (max-width: 767px) {
+  .pb-contact-wrapper {
+    padding-top: 50px;
+  }
   .pb-contact-contents .contact-me-form {
     max-width: 100%;
     padding: 15px 20px;

@@ -188,7 +188,7 @@ const Contributions = () => {
 
                 <a
                   className="contributions-slider-card"
-                  href="https://www.belleandjune.com/"
+                  href="https://palmbeachhealthworks.com/"
                   target="_blank"
                 >
                   <img

@@ -9,7 +9,8 @@
   text-underline-offset: 9px;
   text-decoration-color: var(--top-color);
   text-decoration-thickness: 3px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  font-size: 35px;
 }
 
 .experience-containers .company-div {
@@ -110,6 +111,10 @@ hr.black-line {
   .pb-experience-section-wrapper {
     padding-top: 60px;
   }
+  .pb-experience-section-contents h2.h2-text {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
   .experience-containers .company-div {
     display: block;
   }
@@ -122,13 +127,17 @@ hr.black-line {
   .company-div .company-job-details {
     width: 100%;
   }
-  
+
   .company-job-details .job-details {
     width: 100%;
   }
 }
 
 @media (max-width: 767px) {
+  .pb-experience-section-wrapper {
+    padding-top: 50px;
+  }
+
   .experience-containers .company-div {
     padding: 15px 20px;
   }

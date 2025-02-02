@@ -9,7 +9,8 @@
   text-underline-offset: 9px;
   text-decoration-color: var(--top-color);
   text-decoration-thickness: 3px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
+  font-size: 35px;
 }
 
 .pb-projects-contents .projects-slider-wrapper {
@@ -164,6 +165,10 @@
   .pb-projects-section-wrapper {
     padding-top: 60px;
   }
+  .pb-projects-contents h2.h2-text {
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
   .projects-slider-wrapper .slick-prev,
   .projects-slider-wrapper .slick-next {
     padding: 20px;
@@ -200,6 +205,9 @@
 }
 
 @media (max-width: 767px) {
+  .pb-projects-section-wrapper {
+    padding-top: 50px;
+  }
   .pb-projects-contents .projects-slider-wrapper {
     padding: 0px;
   }

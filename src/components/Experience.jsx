@@ -86,7 +86,7 @@ const Experience = () => {
                         Implemented the database with validating the accuracy of
                         data to maintain the data integrity using{" "}
                         <strong>Oracle SQL</strong> and
-                        <strong>PL/SQL</strong>.
+                        <strong> PL/SQL</strong>.
                       </li>
                       <li>
                         Maintained the entire software by fixing various bugs.
