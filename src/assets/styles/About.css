@@ -100,11 +100,11 @@
 }
 
 .wordpress::before {
-  width: 90%;
+  width: 80%;
 }
 
 .shopify::before {
-  width: 90%;
+  width: 85%;
 }
 
 .c::before {
@@ -117,6 +117,10 @@
 
 .squarespace::before {
   width: 90%;
+}
+
+.bigcommerce::before {
+  width: 70%;
 }
 
 .pb-about-section-contents .call-hire-me-div {
@@ -197,7 +201,7 @@
     width: 95%;
   }
   .skills-grid-container .skill-box {
-    width: 45%;
+    width: 47%;
   }
   .logo-title h4 {
     font-size: 13px;

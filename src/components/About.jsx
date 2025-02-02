@@ -8,6 +8,7 @@ import shopifyLogo from "../../images/shopify-logo.svg";
 import cLogo from "../../images/c-logo.svg";
 import cppLogo from "../../images/C++-logo.svg";
 import squarespaceLogo from "../../images/squarespace-logo.svg";
+import bigcommerceLogo from "../../images/bigcommerce-logo.svg";
 
 const About = () => {
   return (
@@ -78,6 +79,13 @@ const About = () => {
                 </div>
                 <div className="skill-box">
                   <div className="logo-title">
+                    <img src={bigcommerceLogo} alt="Bigcommerce Logo" />
+                    <h4>Bigcommerce</h4>
+                  </div>
+                  <div className="progress-bar bigcommerce"></div>
+                </div>
+                <div className="skill-box">
+                  <div className="logo-title">
                     <img src={cLogo} alt="C Logo" />
                     <h4>C</h4>
                   </div>
@@ -97,7 +105,7 @@ const About = () => {
                 <a href="tel:7449712127">Call Me</a>
               </div>
               <div className="hire-me-cta">
-                <a href="/">Hire Me</a>
+                <a href="mailto:prithvijitbasak22695@gmail.com">Hire Me</a>
               </div>
             </div>
           </div>

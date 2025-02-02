@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import "../assets/styles/Header.css";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo-2.png";
 import hamburger from "../../images/header-menu-hamburger-icon.svg";
 import navbarCross from "../../images/mob-tab-navbar-cross.svg";
 import { useState, useEffect, useRef } from "react";

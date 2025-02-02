@@ -11,7 +11,7 @@ const Education = () => {
               <h3 className="degree-name">Bachelor of Technology</h3>
               <div className="institute-location">
                 <h4 className="institute">Camellia Institute of Technology</h4>
-                <p className="location">- Kolkata, West Bengal, India</p>
+                <p className="location">- Madhyamgram, West Bengal, India</p>
               </div>
               <p className="timeline">2019 to 2023</p>
               <p className="department">

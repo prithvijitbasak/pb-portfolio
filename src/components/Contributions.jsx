@@ -9,6 +9,7 @@ import rtf from "../../images/road-to-fertility.png";
 import bombayHair from "../../images/bombay-hair.png";
 import mrwinstons from "../../images/mrwinstons.png";
 import belleandjune from "../../images/belle-and-june.svg";
+import palmbeach from "../../images/palm-beach-logo.jpg";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import "swiper/css";
 // import "swiper/css/pagination";
@@ -180,7 +181,19 @@ const Contributions = () => {
                 >
                   <img
                     src={belleandjune}
-                    alt="Mr. Winstons"
+                    alt="Belle and June"
+                    className="organisation-img"
+                  />
+                </a>
+
+                <a
+                  className="contributions-slider-card"
+                  href="https://www.belleandjune.com/"
+                  target="_blank"
+                >
+                  <img
+                    src={palmbeach}
+                    alt="Palm Beach Health Works"
                     className="organisation-img"
                   />
                 </a>

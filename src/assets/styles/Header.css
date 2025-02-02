@@ -129,7 +129,7 @@
     object-fit: contain;
     width: 100%;
     border-radius: 5px;
-    box-shadow: var(--global-box-shadow);
+    /* box-shadow: var(--global-box-shadow); */
   }
   .resume-cta-div a {
     padding: 8px;

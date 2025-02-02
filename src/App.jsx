@@ -12,8 +12,6 @@ import UpArrow from "./components/UpArrow";
 // import ContactFormPopUp from "./components/ContactFormPopUp";
 
 const App = () => {
-  
-
   const bannerRef = useRef(null);
   const aboutRef = useRef(null);
   const experienceRef = useRef(null);
@@ -60,9 +58,9 @@ const App = () => {
   return (
     <>
       <Header scrollToSection={scrollToSection} />
-      
+
       <div ref={bannerRef}>
-        <Banner />
+        <Banner scrollToSection={scrollToSection} />
       </div>
       <div ref={aboutRef}>
         <About />

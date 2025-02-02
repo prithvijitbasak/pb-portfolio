@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import bannerImage from "../../images/Prithvijit Basak.jpg";
 import "../assets/styles/Banner.css";
 import { ReactTyped } from "react-typed";
@@ -5,7 +6,7 @@ import linkedin from "../../images/linkedin-logo.svg";
 import github from "../../images/github-logo.svg";
 import whatsapp from "../../images/whatsapp-logo.svg";
 
-const Banner = () => {
+const Banner = ({ scrollToSection }) => {
   return (
     <>
       <section className="pb-portfolio-banner">
@@ -36,12 +37,18 @@ const Banner = () => {
                     href="https://www.linkedin.com/in/prithvijitbasak/"
                     target="_blank"
                   >
-                    <img src={linkedin} alt="LinkedIn" className="socials-logo"/> - <span>LinkedIn</span>
+                    <img
+                      src={linkedin}
+                      alt="LinkedIn"
+                      className="socials-logo"
+                    />{" "}
+                    - <span>LinkedIn</span>
                   </a>
                 </div>
                 <div className="github-anchor-div">
                   <a href="https://github.com/prithvijitbasak" target="_blank">
-                    <img src={github} alt="GitHub" className="socials-logo"/> - <span>GitHub</span>
+                    <img src={github} alt="GitHub" className="socials-logo" /> -{" "}
+                    <span>GitHub</span>
                   </a>
                 </div>
                 <div className="whatsapp-anchor-div">
@@ -50,12 +57,22 @@ const Banner = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <img src={whatsapp} alt="WhatsApp" className="socials-logo"/> - <span>Send a message</span>
+                    <img
+                      src={whatsapp}
+                      alt="WhatsApp"
+                      className="socials-logo"
+                    />{" "}
+                    - <span>Send a message</span>
                   </a>
                 </div>
               </div>
               <div className="contact-me-cta-div">
-                <a href="mailto:prithvijitbasak22695@gmail.com">Contact Me</a>
+                <button
+                  onClick={() => scrollToSection("contact")}
+                  className="contact-cta"
+                >
+                  Contact Me
+                </button>
               </div>
             </div>
           </div>
@@ -63,6 +80,10 @@ const Banner = () => {
       </section>
     </>
   );
+};
+
+Banner.propTypes = {
+  scrollToSection: PropTypes.func.isRequired,
 };
 
 export default Banner;

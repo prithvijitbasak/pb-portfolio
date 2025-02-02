@@ -92,6 +92,12 @@ button.submit-btn {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  border: 2px solid var(--top-color);
+}
+
+button.submit-btn:hover {
+  background-color: #ffffff;
+  color: var(--top-color);
 }
 
 button.submit-btn:active {
@@ -99,6 +105,9 @@ button.submit-btn:active {
 }
 
 @media (max-width: 980px) {
+  .pb-contact-wrapper {
+    padding-top: 60px;
+  }
   .pb-contact-contents .contact-me-form {
     max-width: 80%;
   }

@@ -12,18 +12,23 @@
   padding-bottom: 40px;
 }
 
-
-
 .experience-containers .company-div {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 5%;
   padding: 25px 30px;
   background-color: var(--background-color);
   border-radius: 15px;
   box-shadow: var(--global-box-shadow);
   margin-bottom: 20px;
+}
+
+.company-div .company-logo-div {
+  width: 30%;
+}
+
+.company-div .company-job-details {
+  width: 65%;
 }
 
 .experience-containers .company-div:last-child {
@@ -102,15 +107,24 @@ hr.black-line {
 }
 
 @media (max-width: 980px) {
+  .pb-experience-section-wrapper {
+    padding-top: 60px;
+  }
   .experience-containers .company-div {
     display: block;
   }
   .company-div .company-logo-div {
     width: 50%;
     padding-bottom: 30px;
+    margin: 0 auto;
   }
+
+  .company-div .company-job-details {
+    width: 100%;
+  }
+  
   .company-job-details .job-details {
-    max-width: 100%;
+    width: 100%;
   }
 }
 

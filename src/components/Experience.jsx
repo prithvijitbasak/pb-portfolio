@@ -1,5 +1,5 @@
 import lovenheal from "../../images/lovenheal-logo.png";
-import synergic from "../../images/synergic.png";
+import synergic from "../../images/synergic-2.png";
 import ibarts from "../../images/ibarts-logo-og.png";
 import "../assets/styles/Experience.css";
 import { GrLocation } from "react-icons/gr";
@@ -33,24 +33,24 @@ const Experience = () => {
                     <ul>
                       <li>
                         Developed and maintained dynamic, responsive websites
-                        using <strong>React.js</strong>, <strong>HTML5</strong>,{" "}
-                        <strong>CSS3</strong>, and <strong>JavaScript</strong>.
+                        using <strong>HTML5</strong>, <strong>CSS3</strong>, and{" "}
+                        <strong>JavaScript</strong>.
                       </li>
                       <li>
                         Customized <strong>Shopify themes</strong> and{" "}
-                        <strong>WordPress plugins</strong> to meet
+                        <strong>WordPress themes</strong> to meet
                         client-specific requirements, ensuring seamless
                         integration and optimized performance.
                       </li>
-                      <li>
+                      {/* <li>
                         Built reusable components and implemented state
                         management using <strong>React</strong> for scalable
                         front-end development.
-                      </li>
+                      </li> */}
                       <li>
                         Implemented modern, clean user interfaces with a focus
                         on
-                        <strong>cross-browser compatibility</strong> and{" "}
+                        <strong> cross-browser compatibility</strong> and{" "}
                         <strong>mobile responsiveness</strong>.
                       </li>
                     </ul>
@@ -119,8 +119,8 @@ const Experience = () => {
                         <strong>custom CSS</strong>.
                       </li>
                       <li>
-                        Styled various components of the ${`organisation's`}{" "}
-                        home page using <strong>React.js</strong>.
+                        Styled various components of the home page of
+                        organisation using <strong>React.js</strong>.
                       </li>
                       <li>
                         Fixed various bugs on the overall web application.
