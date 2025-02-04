@@ -4,7 +4,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import weatherApp from "../../images/weather-app.png";
 import reactUserTable from "../../images/react-user-table.png";
 import reactCalculator from "../../images/react-calculator.png";
-import languageTranslator from "../../images/language-translator.png";
+// import languageTranslator from "../../images/language-translator.png";
 import realTimeClock from "../../images/realtime-clock.png";
 import blogsite from "../../images/blogsite.png";
 import Slider from "react-slick";
@@ -125,27 +125,7 @@ const Projects = () => {
                     </a>
                   </div>
                 </div>
-                <div className="projects-slider-cards">
-                  <div className="project-img-div">
-                    <img src={languageTranslator} alt="Language Translator" />
-                  </div>
-                  <h3 className="project-title">Language Translator</h3>
-                  <p className="projects-desc">
-                    A language translator made using HTML, CSS and JS.
-                  </p>
-                  <div className="links-div">
-                    <a href="https://pbtranslator.netlify.app/" target="_blank">
-                      <CgWebsite /> Live
-                    </a>
-                    <a
-                      href="https://github.com/prithvijitbasak/language-translator"
-                      target="_blank"
-                    >
-                      <FaLaptopCode />
-                      Code
-                    </a>
-                  </div>
-                </div>
+                
                 <div className="projects-slider-cards">
                   <div className="project-img-div">
                     <img src={realTimeClock} alt="Real Time Clock" />
