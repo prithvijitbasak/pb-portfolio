@@ -6,7 +6,7 @@ Hello, I built my personal portfolio using React.js and styled it with custom CS
 
 ### Purpose
 
-To present my skills, experience, achievements, and experiences all in one place.
+To present my skills, experience, achievements, and expertise all in one place.
 
 
 
