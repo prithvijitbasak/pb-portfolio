@@ -2,7 +2,8 @@
 
 Hello, I built my personal portfolio using React.js and styled it with custom CSS!
 
-![Alt text](.images/main-ss-of-project.png "Full SS")
+![Alt text](images/main-ss-of-project.png "Full SS")
+
 
 ### Purpose
 
