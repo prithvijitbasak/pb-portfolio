@@ -94,7 +94,7 @@ const Header = ({ scrollToSection }) => {
             </div>
             <div className="resume-cta-div">
               <a
-                href="https://drive.google.com/file/d/1beOQG39cbhtnDYhvUscMBNnNVPPQazxk/view?usp=sharing"
+                href="https://drive.google.com/file/d/1E9Zx9_8eRZJfVx1B2BSwRmuL85yK-_Lr/view?usp=drive_link"
                 target="_blank"
               >
                 Resume
