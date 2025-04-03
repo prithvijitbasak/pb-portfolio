@@ -59,8 +59,9 @@ const Header = ({ scrollToSection }) => {
               </div>
               <a
                 className="cta-div"
-                href="https://drive.google.com/file/d/1beOQG39cbhtnDYhvUscMBNnNVPPQazxk/view?usp=sharing"
+                href="/src/assets/files/Prithvijit__Basak.pdf"
                 target="_blank"
+                download="Prithvijit__Basak.pdf"
               >
                 Resume
               </a>
